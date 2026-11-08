@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Hex AR",
+    "slug": "hex-ar",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.rekkaindio.hexar"
+    },
+    "android": {
+      "package": "com.rekkaindio.hexar"
+    },
+    "plugins": [
+      "expo-dev-client",
+      "@reactvision/react-viro"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "hex-ar",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@reactvision/react-viro": "^3.0.3",
+    "@reactvision/viro-web-renderer": "^1.0.1",
+    "expo": "~57.0.32",
+    "expo-dev-client": "~57.0.21",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/react": "~19.3.0",
+    "jest-expo": "~57.0.0",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
+  },
+  "private": true,
+  "jest": {
+    "preset": "jest-expo"
+  }
+}
